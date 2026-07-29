@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: probe of /.well-known/ on the production hosts
+host: https://www.jadend.tech
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on the production host
+  (www.jadend.tech). The legacy domain jadeautism.com 301-redirects to
+  www.jadend.tech for all paths. Absence recorded as valid data; no WellKnown
+  pointer wired because no document was found.

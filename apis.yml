@@ -1,7 +1,26 @@
 aid: jade-autism
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jade-autism.png
 name: Jade Autism
-description: Jade Autism is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jade (Jade ND) is a Brazil-, UAE-, and UK-based education technology company building inclusive
+  digital solutions for neurodivergent children, including those on the autism spectrum (ASD). Its
+  product family includes Jade Edu (personalized-learning software for schools and educators), the
+  Jade App (cognitive-development games for children, with 185,000+ downloads across 179 countries),
+  Jade Astea (eye-tracking technology that assists professionals in evaluating autism-spectrum
+  diagnosis), and Jade Academy (professional-development courses on inclusive and diverse education).
+  Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; the company
+  publishes no public developer API, SDKs, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/jade-autism/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Autism
+- Neurodiversity
+- Accessibility
+- Healthcare
+- Mobile
+- Eye Tracking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jade-autism-domain-security.yml
 - type: Website
-  url: https://jadeautism.com
+  url: https://www.jadend.tech
+- type: Blog
+  url: https://www.jadend.tech/blog
+- type: Login
+  url: https://www.jadend.tech/login
+- type: Pricing
+  url: https://www.jadend.tech/assinatura
+- type: Support
+  url: https://www.jadend.tech/contato
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

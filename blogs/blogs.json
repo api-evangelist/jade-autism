@@ -1,0 +1,21 @@
+{
+  "repo": "jade-autism",
+  "feeds": [
+    {
+      "source": "https://www.jadend.tech/feed/rss2",
+      "feed_url": "https://www.jadend.tech/feed/rss2",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.jadend.tech",
+      "feed_url": "https://www.jadend.tech/feed/rss2",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 50,
+  "fetched": "2026-07-25T15:00:33Z"
+}
